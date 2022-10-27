@@ -3,7 +3,7 @@ version: v1.22.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 exclude:
  global:
-   - " / .tf"
+   - "/*.tf"
 ignore:
   SNYK-CC-TF-4:
     - '*':
